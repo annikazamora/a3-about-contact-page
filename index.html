@@ -18,14 +18,20 @@
       #p2
       
       #container {
-        width: 1024 px;
-        height: 768 px;
         background-color: #f2f0e6; 
-        
+        padding: 20px;
+        padding-top: 0px;
+        overflow: hidden;
       }
       
       .leftText {
         float: left;
+        height: 100%;
+      }
+      
+      body {
+        border: 2px solid black;
+        height: 100%;
       }
       
       /** Annika's Food Journal Title **/
@@ -52,14 +58,16 @@
         font-family: "Playfair Display";
         font-weight: 400;
         font-style: normal;
+        
       }
       
-      #p2 {
+      .p2 {
         font-size: 17px;
         font-family: "Playfair Display";
         font-weight: 400;
         font-style: normal;
-        line-height: 2
+        line-height: 2;
+          
       }
       
       ul {
@@ -141,7 +149,7 @@
           Random Facts About Me:
         </h2>
 
-        <div id="p2">
+        <div class="p2">
           <u>Current favourite food:</u> Tacos <br>
           <u>Favourite fast food place:</u> McDonald's <br>
           <u>Favourite place I've visited (in relation to food):</u> Italy <br>
